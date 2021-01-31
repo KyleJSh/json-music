@@ -11,6 +11,9 @@
 		C87FB86525C7516D005EB2F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87FB86425C7516D005EB2F4 /* ContentView.swift */; };
 		C87FB86725C75170005EB2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87FB86625C75170005EB2F4 /* Assets.xcassets */; };
 		C87FB86A25C75170005EB2F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87FB86925C75170005EB2F4 /* Preview Assets.xcassets */; };
+		C87FB87725C751B1005EB2F4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C87FB87625C751B1005EB2F4 /* data.json */; };
+		C87FB87B25C751D4005EB2F4 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87FB87A25C751D4005EB2F4 /* MusicModel.swift */; };
+		C87FB87E25C751E7005EB2F4 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87FB87D25C751E7005EB2F4 /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C87FB86625C75170005EB2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87FB86925C75170005EB2F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C87FB86B25C75170005EB2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87FB87625C751B1005EB2F4 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C87FB87A25C751D4005EB2F4 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		C87FB87D25C751E7005EB2F4 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				C87FB86225C7516D005EB2F4 /* json_musicApp.swift */,
-				C87FB86425C7516D005EB2F4 /* ContentView.swift */,
+				C87FB87425C7518E005EB2F4 /* ViewModels */,
+				C87FB87325C75189005EB2F4 /* Views */,
+				C87FB87225C75182005EB2F4 /* Models */,
 				C87FB86625C75170005EB2F4 /* Assets.xcassets */,
+				C87FB87525C7519F005EB2F4 /* Data */,
 				C87FB86B25C75170005EB2F4 /* Info.plist */,
 				C87FB86825C75170005EB2F4 /* Preview Content */,
 			);
@@ -67,6 +76,38 @@
 				C87FB86925C75170005EB2F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C87FB87225C75182005EB2F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C87FB87D25C751E7005EB2F4 /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C87FB87325C75189005EB2F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C87FB86425C7516D005EB2F4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C87FB87425C7518E005EB2F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C87FB87A25C751D4005EB2F4 /* MusicModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C87FB87525C7519F005EB2F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C87FB87625C751B1005EB2F4 /* data.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87FB86A25C75170005EB2F4 /* Preview Assets.xcassets in Resources */,
+				C87FB87725C751B1005EB2F4 /* data.json in Resources */,
 				C87FB86725C75170005EB2F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +182,8 @@
 			files = (
 				C87FB86525C7516D005EB2F4 /* ContentView.swift in Sources */,
 				C87FB86325C7516D005EB2F4 /* json_musicApp.swift in Sources */,
+				C87FB87B25C751D4005EB2F4 /* MusicModel.swift in Sources */,
+				C87FB87E25C751E7005EB2F4 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,14 @@
+[
+  { "genre":"Rock",
+    "instruments":["Guitars", "Bass", "Drums", "Vocals"]
+  },
+  { "genre":"Dixie",
+    "instruments":["Clarinet", "Trumpet", "Trombone", "Snare"]
+  },
+  { "genre":"Classical",
+    "instruments":["Strings", "Brass", "Wind", "Percussion"]
+  },
+  { "genre":"Pop",
+    "instruments":["Synth", "Vocals", "Guitars", "Bass/Drums"]
+  }
+]
